@@ -48,6 +48,7 @@ npm install
 ## Test Suites
 ### Authentication Suite:
 Test cases related to user authentication, such as logging in and logging out.
+npx playwright test tests/authentication.spec
 
 a.Test logging in with valid credentials:
 
@@ -57,6 +58,7 @@ c.Test logging out:
 
 ### Product Browsing Suite:
 Test cases related to browsing products on the website.
+npx playwright test tests/product-browsing-test.spec.js
 
 a.Test navigating to different product categories:
 
@@ -64,6 +66,7 @@ b.Test to search / browser a product
 
 ### Cart Management Suite:
 Test cases related to managing the shopping cart.
+npx playwright test tests/adding-items-to-cart.spec.js
 
 a.Test adding items to the cart:
 
@@ -74,7 +77,8 @@ c.Test removing items from the cart:
 ## Running Tests
 Instructions on how to run tests -> TO-DO before running authentication suite input password field
 
-Run tests:
+### Run tests:
+
 ### >Run particular test suite like an authentication suite
 npx playwright test tests/authentication.spec.js
 
