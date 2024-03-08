@@ -28,14 +28,8 @@ Windows/macOS:
 Download the installer from the official Node.js website from here https://nodejs.org/.
 Run the installer and follow the prompts to install Node.js and npm.
 
-Clone the repository:
-git clone 
-
-### Navigate to test suite:
-cd tests
-
-### Install dependencies from node_modules:
-npm install 
+### Clone the repository:
+git clone https://github.com/akhiltodecode/Playwright_Resource.git
 
 ### Setting Up Playwright Environment
 Install Playwright as a development dependency:
@@ -44,8 +38,13 @@ npm install playwright --save-dev
 Initialize Playwright in your project:
 npx playwright install
 
-Playwright Documentation for the project
+### Navigate to test suite:
+cd tests
 
+### Install dependencies from node_modules directory:
+npm install 
+
+# Playwright Documentation for the project
 ## Test Suites
 ### Authentication Suite:
 Test cases related to user authentication, such as logging in and logging out.
