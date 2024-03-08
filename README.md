@@ -35,14 +35,17 @@ git clone https://github.com/akhiltodecode/Playwright_Resource.git
 Install Playwright as a development dependency:
 npm install playwright --save-dev
 
+Test Runner
+npm install @playwright/test --save-dev
+
 Initialize Playwright in your project:
 npx playwright install
 
+Test Runner
+npm install @playwright/test --save-dev
+
 ### Navigate to test suite:
 cd tests
-
-### Install dependencies from node_modules directory:
-npm install 
 
 # Playwright Documentation for the project
 ## Test Suites
