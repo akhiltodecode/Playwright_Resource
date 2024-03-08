@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce-testing-suite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "adding-items-to-cart.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "fund": "^1.0.0",
+    "playwright-core": "^1.42.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "mocha": "^10.3.0",
+    "mochawesome": "^7.1.3",
+    "playwright": "^1.42.1"
+  },
+  "scripts": {
+    "test": "playwright test --reporter=list,mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
