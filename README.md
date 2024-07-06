@@ -1,5 +1,5 @@
 # Playwright_Resource - Automating with Playwright on an E-commerce Website: Beginner to Intermediate level.
-The E-commerce Testing Suite is a project built from the ground up, starting with the basics, to provide a beginner-friendly resource for diving into automation testing with Playwright.
+The E-commerce Testing Suite is a project built from the ground up, starting with the basics, to provide a beginner-friendly resource for diving into basics of automation testing with Playwright.
 It includes test cases covering various aspects of the website, such as user authentication, product browsing, and cart management.
 
 ## Key Features:
