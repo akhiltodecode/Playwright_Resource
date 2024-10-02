@@ -105,4 +105,4 @@ This README file provides comprehensive instructions for installing Playwright a
 Contributions to the project are welcome! Developers can contribute by adding new test cases, improving existing ones, enhancing the testing framework, or providing feedback and suggestions for improvement.
 
 #### Contact:
-For questions, please reach out to me @ akhileshkeerthi@gmail.com.
+For questions, please reach out to me, thank you - Akhil.
