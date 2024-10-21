@@ -81,7 +81,7 @@ test.describe('Authentication Suite', () => {
 		await page.waitForSelector('#ap_email', { timeout: 20000 });
 
 		// Fill in the email field
-		await page.fill('#ap_email', 'akhileshkeerthi@gmai.com');
+		await page.fill('#ap_email', 'akhileshk@g.m');
 
 		// Click on the "Continue" button
 		await page.click('#continue');
