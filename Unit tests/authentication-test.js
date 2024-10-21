@@ -25,7 +25,7 @@ const { chromium } = require('playwright');
   await page.waitForSelector('#ap_email');
 
   // Fill in the email field
-  await page.fill('#ap_email', 'akhileshkeerthi@gmail.com');
+  await page.fill('#ap_email', 'akhilesh@g.m');
 
   // Click on the "Continue" button
   await page.click('#continue');
