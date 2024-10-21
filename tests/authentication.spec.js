@@ -33,7 +33,7 @@ test.describe('Authentication Suite', () => {
 		await page.waitForSelector('#ap_email', { timeout: 20000 });
 
 		// Fill in the email field
-		await page.fill('#ap_email', 'akhileshkeerthi@gmail.com');
+		await page.fill('#ap_email', 'akhilesh@g.m');
 
 		// Click on the "Continue" button
 		await page.click('#continue');
@@ -114,7 +114,7 @@ test.describe('Authentication Suite', () => {
 		await page.waitForSelector('#ap_email', { timeout: 20000 });
 
 		// Fill in the email field
-		await page.fill('#ap_email', 'akhileshkeerthi@gmail.com');
+		await page.fill('#ap_email', 'akhileshk@g.m');
 
 		// Click on the "Continue" button
 		await page.click('#continue');
